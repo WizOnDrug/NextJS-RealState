@@ -1,4 +1,4 @@
-import SigninPage from "@/template/SiginPage";
+import SigninPage from "@/template/SigninPage";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/api/auth/[...nextauth]/route";
 import { redirect } from "next/navigation";
