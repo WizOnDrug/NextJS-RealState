@@ -2,7 +2,7 @@ import { SiHomebridge } from "react-icons/si";
 import { AiOutlinePhone } from "react-icons/ai";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { BiCalendarCheck } from "react-icons/bi";
-import ShareButton from "./ShareButton";
+import ShareButton from "../module/ShareButton";
 import Title from "@/module/Title";
 import ItemList from "@/module/ItemList";
 import { e2p, sp } from "@/utils/replaceNumber";

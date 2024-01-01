@@ -1,7 +1,7 @@
 "use client";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { LuShare2 } from "react-icons/lu";
-import styles from "../template/ShareButton.module.css"
+import styles from "./ShareButton.module.css"
 import { useEffect, useState } from "react";
 
 const ShareButton = () => {
