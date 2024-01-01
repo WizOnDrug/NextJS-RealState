@@ -7,6 +7,9 @@ import DashboardSideBar from "@/layout/DashboardSideBar";
 import AdminPage from "@/template/AdminPage";
 import Profile from "@/models/Profile";
 
+export const metadata = {
+  title: "پنل ادمین",
+};
 const Admin = async () => {
   await connectDB();
   const session = await getServerSession(authOptions);

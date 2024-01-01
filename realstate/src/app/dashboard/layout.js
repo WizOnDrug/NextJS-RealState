@@ -4,7 +4,9 @@ import { redirect } from "next/navigation";
 import DashboardSideBar from "@/layout/DashboardSideBar";
 import connectDB from "@/utils/connectDB";
 import User from "@/models/User";
-
+export const metadata = {
+  title: "پنل کاربری | ویز و شرکا",
+};
 const DashboardLayout = async ({ children }) => {
   const session = await getServerSession(authOptions);
   if (!session) redirect("/signin");
