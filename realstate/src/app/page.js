@@ -1,10 +1,8 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-
-export default function Home() {
+import HomePage from "@/template/HomePage"; 
+const Home = ()=> {
   return (
-    <main className={styles.main}>
-     <h1>سلام</h1>
-    </main>
+   <HomePage/>
   )
 }
+
+export default Home;
