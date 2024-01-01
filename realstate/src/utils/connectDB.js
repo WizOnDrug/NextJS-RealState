@@ -1,13 +1,10 @@
-import { hash, compare } from "bcryptjs";
+import mongoose from "mongoose";
 
-async function hashPassword(password) {
-  const hashedPassword = await hash(password, 12);
-  return hashedPassword;
+async function connectDB() {
+  if (mongoose.connections[0].readyState) return;
+
+  await mongoose.connect(process.env.MONGO_URI);
+  console.log("Connected to DB");
 }
 
-async function verifyPassword(password, hashedPassword) {
-  const isValid = await compare(password, hashedPassword);
-  return isValid;
-}
-
-export { hashPassword, verifyPassword };
+export default connectDB;
