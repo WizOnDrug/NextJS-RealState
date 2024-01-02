@@ -5,7 +5,7 @@
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
-    background-color: #304ffe;
+    background-color: #14428b;
     color: #fff;
   }
   
@@ -21,15 +21,13 @@
   .login a {
     display: flex;
     align-items: center;
-    background-color: #fff;
-    color: #304ffe;
+    color: #ffffff;
     padding: 3px 7px;
     border-radius: 5px;
     transition: all ease-in 0.1s;
   }
   .login a:hover {
-    background-color: #304ffe;
-    color: #fff;
+    color: #555555;
   }
   
   .login svg {

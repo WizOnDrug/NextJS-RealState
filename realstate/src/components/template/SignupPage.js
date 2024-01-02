@@ -34,13 +34,14 @@ const SignupPage = () => {
 
     if(res.status === 201){
       router.push("/signin");
+      toast.success("حساب کاربری شما با موفقیت ایجاد شد !")
     }else{
       toast.error(data.error);
     }
   };
   return (
     <div className={styles.form}>
-      <h4>فرم ثبت نام</h4>
+      <h4> ثبت نام</h4>
       <form>
         <label>ایمیل :</label>
         <input

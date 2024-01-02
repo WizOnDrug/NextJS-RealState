@@ -29,12 +29,14 @@ const SigninPage = () => {
     if (res.error) {
       toast.error(res.error);
     } else {
+      
       router.push("/");
+      toast.success("با موفقیت وارد شدید!")
     }
   };
   return (
     <div className={styles.form}>
-      <h4>فرم ورود </h4>
+      <h4> ورود </h4>
       <form>
         <label>ایمیل :</label>
         <input

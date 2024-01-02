@@ -1,20 +1,22 @@
 .cotainer h3 {
-    color: #304ffe;
+    color: #f6f7ff;
     font-weight: 400;
     font-size: 1.5rem;
     margin-bottom: 20px;
   }
   .cotainer p {
-    color: grey;
+    color: rgb(231, 25, 25);
   }
   
   .createdAt {
-    margin-top: 100px;
+    margin-top: 10px;
     display: flex;
-    background-color: #304ffe18;
+    background-color: #0926cc18;
     width: fit-content;
+    opacity: 100%;
     padding: 5px 10px;
     border-radius: 5px;
+    color: rgb(79, 22, 221);
   }
   
   .createdAt p {
@@ -24,5 +26,5 @@
   }
   
   .createdAt span {
-    color: #304ffe;
+    color: #1a2fa9;
   }

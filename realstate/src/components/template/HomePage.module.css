@@ -10,7 +10,7 @@
   .desc {
     width: 100%;
     text-align: center;
-    color: #304ffe;
+    color: #06060b;
   }
   
   .desc h1 {
@@ -29,10 +29,13 @@
   .desc li {
     display: flex;
     align-items: center;
-    width: 80px;
+    width: 85px;
+    height: 35px;
     margin: 10px;
-    background-color: #bbdefb;
-    padding: 5px 10px;
+    justify-content: center;
+    background-color: #2068a3;
+    /* padding: 5px 10px; */
+    color: #e9eaef;
     border-radius: 5px;
   }
   
@@ -57,7 +60,7 @@
     font-weight: 600;
     font-size: 2rem;
     text-align: center;
-    color: #304ffe;
+    color: #070707;
   }
   
   .city ul {
@@ -69,8 +72,8 @@
   }
   
   .city li {
-    background-color: #bbdefb;
-    color: #304ffe;
+    background-color: #14428b;
+    color: #e9eaef;
     font-size: 1.2rem;
     width: 250px;
     margin: 10px 0;

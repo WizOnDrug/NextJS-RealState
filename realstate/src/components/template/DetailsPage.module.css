@@ -8,7 +8,7 @@
 }
 
 .main h1 {
-  color: #304ffe;
+  color: #000000;
   font-size: 1.3rem;
   font-weight: 400;
   margin-bottom: 10px;
@@ -19,12 +19,13 @@
   align-items: flex-start;
   height: 15px;
   margin-bottom: 50px;
-  color: grey;
+  color: rgb(255, 247, 247);
 }
 
 .main span svg {
   font-size: 1.2rem;
   margin-left: 5px;
+  color: #112698;
 }
 
 .main p {
@@ -51,7 +52,7 @@
 }
 .realState svg {
   font-size: 3rem;
-  color: #304ffe;
+  color: #0d1f84;
   margin: 10px 0 20px;
 }
 
@@ -63,7 +64,7 @@
 .realState span {
   display: flex;
   align-items: center;
-  color: grey;
+  color: rgb(245, 245, 245);
   margin-top: 20px;
 }
 
@@ -71,13 +72,14 @@
   font-size: 1.4rem;
   margin: 0;
   margin-left: 5px;
-  color: grey;
+  color: #304ffe;
 }
 
 .share {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .share button {
@@ -85,7 +87,7 @@
   background: none;
   cursor: pointer;
   font-size: 1rem;
-  color: grey;
+  color: rgb(10, 10, 10);
   height: 20px;
   transition: all ease-in 0.1s;
 }
@@ -109,7 +111,7 @@
 .price p {
   display: flex;
   align-items: center;
-  color: grey;
+  color: rgb(0, 0, 0);
   margin-bottom: 20px;
   height: 20px;
 }
