@@ -1,5 +1,5 @@
 
-# React Blog 
+# RealState-NextJS
 
 Real-State Website With NextJS
 
